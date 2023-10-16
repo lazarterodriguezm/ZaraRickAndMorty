@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="ZaraRickAndMorty" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" placeholder="Name" showsBookmarkButton="YES" showsScopeBar="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PrC-cf-0wl">
+                                <rect key="frame" x="0.0" y="44" width="414" height="103"/>
+                                <color key="tintColor" name="Search Bar Tint"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <scopeButtonTitles>
+                                    <string>Name</string>
+                                    <string>Status</string>
+                                    <string>Species</string>
+                                    <string>Type</string>
+                                    <string>Gender</string>
+                                </scopeButtonTitles>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yVa-f4-A2a">
+                                <rect key="frame" x="0.0" y="147" width="414" height="651"/>
+                                <color key="backgroundColor" red="0.15294117647058825" green="0.16862745098039217" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hci-W8-wOc">
+                                <rect key="frame" x="0.0" y="798" width="414" height="4"/>
+                                <color key="progressTintColor" name="Progress Tint"/>
+                                <color key="trackTintColor" name="Progress Track Tint"/>
+                            </progressView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="J4N-Ze-ioR">
+                                <rect key="frame" x="0.0" y="802" width="414" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcR-kL-tI7">
+                                        <rect key="frame" x="0.0" y="0.0" width="103.5" height="60"/>
+                                        <color key="tintColor" name="Progress Icons"/>
+                                        <state key="normal" image="arrow.left.to.line.alt" catalog="system"/>
+                                        <connections>
+                                            <action selector="firstPageButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="24j-18-zBg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xsv-8d-LsV">
+                                        <rect key="frame" x="103.5" y="0.0" width="103.5" height="60"/>
+                                        <color key="tintColor" name="Progress Icons"/>
+                                        <state key="normal" image="arrow.left" catalog="system"/>
+                                        <connections>
+                                            <action selector="previousPageButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dcV-zp-1Ao"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GXb-C1-PiH">
+                                        <rect key="frame" x="207" y="0.0" width="103.5" height="60"/>
+                                        <color key="tintColor" name="Progress Icons"/>
+                                        <state key="normal" image="arrow.right" catalog="system"/>
+                                        <connections>
+                                            <action selector="nextPageButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LtW-gr-Ibr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lDI-EB-Wed">
+                                        <rect key="frame" x="310.5" y="0.0" width="103.5" height="60"/>
+                                        <color key="tintColor" name="Progress Icons"/>
+                                        <state key="normal" image="arrow.right.to.line" catalog="system"/>
+                                        <connections>
+                                            <action selector="lastPageButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xNk-Xe-eYL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="L40-rf-DFV"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="Bars"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="J4N-Ze-ioR" secondAttribute="bottom" id="31b-Xc-HLk"/>
+                            <constraint firstItem="hci-W8-wOc" firstAttribute="top" secondItem="yVa-f4-A2a" secondAttribute="bottom" id="EJZ-Sy-LWj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PrC-cf-0wl" secondAttribute="trailing" id="K3o-IQ-2KF"/>
+                            <constraint firstItem="J4N-Ze-ioR" firstAttribute="top" secondItem="hci-W8-wOc" secondAttribute="bottom" id="Laz-DN-EXd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yVa-f4-A2a" secondAttribute="trailing" id="Mbw-j6-UIc"/>
+                            <constraint firstItem="PrC-cf-0wl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Nce-t4-PYO"/>
+                            <constraint firstItem="yVa-f4-A2a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OVH-0D-Hzz"/>
+                            <constraint firstItem="hci-W8-wOc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Sp4-Au-1X5"/>
+                            <constraint firstItem="PrC-cf-0wl" firstAttribute="bottom" secondItem="yVa-f4-A2a" secondAttribute="top" id="Usg-KT-G1s"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hci-W8-wOc" secondAttribute="trailing" id="k82-T9-fz4"/>
+                            <constraint firstItem="J4N-Ze-ioR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ktB-3H-0Tb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="J4N-Ze-ioR" secondAttribute="trailing" id="qtQ-Yh-Wx3"/>
+                            <constraint firstItem="PrC-cf-0wl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="vYd-ZS-kzc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="firstPageButton" destination="vcR-kL-tI7" id="HTl-E2-KLb"/>
+                        <outlet property="lastPageButton" destination="lDI-EB-Wed" id="bQI-s4-Ber"/>
+                        <outlet property="nextPageButton" destination="GXb-C1-PiH" id="Ydt-fn-15I"/>
+                        <outlet property="previousPageButton" destination="Xsv-8d-LsV" id="7Oq-JL-7OC"/>
+                        <outlet property="progressView" destination="hci-W8-wOc" id="NXd-9V-6nA"/>
+                        <outlet property="searchBar" destination="PrC-cf-0wl" id="hjp-Rm-gPk"/>
+                        <outlet property="tableView" destination="yVa-f4-A2a" id="BTy-r8-gkC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="531.8840579710145" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.left" catalog="system" width="128" height="98"/>
+        <image name="arrow.left.to.line.alt" catalog="system" width="128" height="89"/>
+        <image name="arrow.right" catalog="system" width="128" height="98"/>
+        <image name="arrow.right.to.line" catalog="system" width="128" height="101"/>
+        <namedColor name="Bars">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Progress Icons">
+            <color red="0.20000000298023224" green="0.20000000298023224" blue="0.20000000298023224" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Progress Tint">
+            <color red="1" green="0.59600001573562622" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Progress Track Tint">
+            <color red="0.62000000476837158" green="0.62000000476837158" blue="0.62000000476837158" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Search Bar Tint">
+            <color red="1" green="0.59600001573562622" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

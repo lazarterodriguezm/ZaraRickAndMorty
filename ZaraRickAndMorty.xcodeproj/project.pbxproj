@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4937B6042AD56FC900331383 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4937B6032AD56FC900331383 /* CardTableViewCell.swift */; };
+		4939897E2AD4BE2600B4A8A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4939897D2AD4BE2600B4A8A3 /* AppDelegate.swift */; };
+		493989802AD4BE2600B4A8A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4939897F2AD4BE2600B4A8A3 /* SceneDelegate.swift */; };
+		493989822AD4BE2600B4A8A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493989812AD4BE2600B4A8A3 /* ViewController.swift */; };
+		493989852AD4BE2600B4A8A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493989832AD4BE2600B4A8A3 /* Main.storyboard */; };
+		493989882AD4BE2600B4A8A3 /* ZaraRickAndMorty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 493989862AD4BE2600B4A8A3 /* ZaraRickAndMorty.xcdatamodeld */; };
+		4939898A2AD4BE2800B4A8A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493989892AD4BE2800B4A8A3 /* Assets.xcassets */; };
+		4939898D2AD4BE2800B4A8A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4939898B2AD4BE2800B4A8A3 /* LaunchScreen.storyboard */; };
+		493989982AD4BE2800B4A8A3 /* DefaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493989972AD4BE2800B4A8A3 /* DefaultTests.swift */; };
+		493989A32AD4BE2800B4A8A3 /* ZaraRickAndMortyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493989A22AD4BE2800B4A8A3 /* ZaraRickAndMortyUITests.swift */; };
+		493A1FE42AD5830200E2EB7F /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493A1FE32AD5830200E2EB7F /* CardTableViewCell.xib */; };
+		49451AB62AD84A92000DBBB3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49451AB52AD84A92000DBBB3 /* Colors.xcassets */; };
+		4946EF142ADCD2B500B90F42 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946EF132ADCD2B500B90F42 /* ViewControllerTests.swift */; };
+		498A0AD72ADCBAC100D502E9 /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A0AD62ADCBAC100D502E9 /* APIRequests.swift */; };
+		498A0ADC2ADCBBEC00D502E9 /* APICharacterModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A0ADB2ADCBBEC00D502E9 /* APICharacterModels.swift */; };
+		498A0AE12ADCBC0C00D502E9 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A0AE02ADCBC0C00D502E9 /* Utilities.swift */; };
+		498A0AE62ADCC43800D502E9 /* PersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A0AE52ADCC43800D502E9 /* PersistentContainer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		493989942AD4BE2800B4A8A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 493989722AD4BE2600B4A8A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 493989792AD4BE2600B4A8A3;
+			remoteInfo = ZaraRickAndMorty;
+		};
+		4939899F2AD4BE2800B4A8A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 493989722AD4BE2600B4A8A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 493989792AD4BE2600B4A8A3;
+			remoteInfo = ZaraRickAndMorty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4937B6032AD56FC900331383 /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		4939897A2AD4BE2600B4A8A3 /* ZaraRickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZaraRickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4939897D2AD4BE2600B4A8A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4939897F2AD4BE2600B4A8A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		493989812AD4BE2600B4A8A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		493989842AD4BE2600B4A8A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		493989872AD4BE2600B4A8A3 /* ZaraRickAndMorty.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZaraRickAndMorty.xcdatamodel; sourceTree = "<group>"; };
+		493989892AD4BE2800B4A8A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4939898C2AD4BE2800B4A8A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4939898E2AD4BE2800B4A8A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		493989932AD4BE2800B4A8A3 /* ZaraRickAndMortyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaraRickAndMortyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		493989972AD4BE2800B4A8A3 /* DefaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTests.swift; sourceTree = "<group>"; };
+		493989992AD4BE2800B4A8A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4939899E2AD4BE2800B4A8A3 /* ZaraRickAndMortyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaraRickAndMortyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		493989A22AD4BE2800B4A8A3 /* ZaraRickAndMortyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaraRickAndMortyUITests.swift; sourceTree = "<group>"; };
+		493989A42AD4BE2800B4A8A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		493A1FE32AD5830200E2EB7F /* CardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
+		49451AB52AD84A92000DBBB3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		4946EF132ADCD2B500B90F42 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		498A0AD62ADCBAC100D502E9 /* APIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
+		498A0ADB2ADCBBEC00D502E9 /* APICharacterModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICharacterModels.swift; sourceTree = "<group>"; };
+		498A0AE02ADCBC0C00D502E9 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		498A0AE52ADCC43800D502E9 /* PersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentContainer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		493989772AD4BE2600B4A8A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493989902AD4BE2800B4A8A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4939899B2AD4BE2800B4A8A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		493989712AD4BE2600B4A8A3 = {
+			isa = PBXGroup;
+			children = (
+				4939897C2AD4BE2600B4A8A3 /* ZaraRickAndMorty */,
+				493989962AD4BE2800B4A8A3 /* ZaraRickAndMortyTests */,
+				493989A12AD4BE2800B4A8A3 /* ZaraRickAndMortyUITests */,
+				4939897B2AD4BE2600B4A8A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4939897B2AD4BE2600B4A8A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4939897A2AD4BE2600B4A8A3 /* ZaraRickAndMorty.app */,
+				493989932AD4BE2800B4A8A3 /* ZaraRickAndMortyTests.xctest */,
+				4939899E2AD4BE2800B4A8A3 /* ZaraRickAndMortyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4939897C2AD4BE2600B4A8A3 /* ZaraRickAndMorty */ = {
+			isa = PBXGroup;
+			children = (
+				498A0AEA2ADCC64B00D502E9 /* App Delegate */,
+				498A0AEE2ADCC67200D502E9 /* Resources */,
+				498A0AED2ADCC66300D502E9 /* Controllers */,
+				498A0AEC2ADCC65F00D502E9 /* Views */,
+				498A0AEB2ADCC65A00D502E9 /* Models */,
+			);
+			path = ZaraRickAndMorty;
+			sourceTree = "<group>";
+		};
+		493989962AD4BE2800B4A8A3 /* ZaraRickAndMortyTests */ = {
+			isa = PBXGroup;
+			children = (
+				493989992AD4BE2800B4A8A3 /* Info.plist */,
+				493989972AD4BE2800B4A8A3 /* DefaultTests.swift */,
+				4946EF132ADCD2B500B90F42 /* ViewControllerTests.swift */,
+			);
+			path = ZaraRickAndMortyTests;
+			sourceTree = "<group>";
+		};
+		493989A12AD4BE2800B4A8A3 /* ZaraRickAndMortyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				493989A22AD4BE2800B4A8A3 /* ZaraRickAndMortyUITests.swift */,
+				493989A42AD4BE2800B4A8A3 /* Info.plist */,
+			);
+			path = ZaraRickAndMortyUITests;
+			sourceTree = "<group>";
+		};
+		498A0AEA2ADCC64B00D502E9 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4939897D2AD4BE2600B4A8A3 /* AppDelegate.swift */,
+				4939897F2AD4BE2600B4A8A3 /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		498A0AEB2ADCC65A00D502E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				493989862AD4BE2600B4A8A3 /* ZaraRickAndMorty.xcdatamodeld */,
+				498A0ADB2ADCBBEC00D502E9 /* APICharacterModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		498A0AEC2ADCC65F00D502E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4939898B2AD4BE2800B4A8A3 /* LaunchScreen.storyboard */,
+				493989832AD4BE2600B4A8A3 /* Main.storyboard */,
+				493A1FE32AD5830200E2EB7F /* CardTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		498A0AED2ADCC66300D502E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				493989812AD4BE2600B4A8A3 /* ViewController.swift */,
+				4937B6032AD56FC900331383 /* CardTableViewCell.swift */,
+				498A0AE52ADCC43800D502E9 /* PersistentContainer.swift */,
+				498A0AD62ADCBAC100D502E9 /* APIRequests.swift */,
+				498A0AE02ADCBC0C00D502E9 /* Utilities.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		498A0AEE2ADCC67200D502E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4939898E2AD4BE2800B4A8A3 /* Info.plist */,
+				493989892AD4BE2800B4A8A3 /* Assets.xcassets */,
+				49451AB52AD84A92000DBBB3 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		493989792AD4BE2600B4A8A3 /* ZaraRickAndMorty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493989A72AD4BE2800B4A8A3 /* Build configuration list for PBXNativeTarget "ZaraRickAndMorty" */;
+			buildPhases = (
+				493989762AD4BE2600B4A8A3 /* Sources */,
+				493989772AD4BE2600B4A8A3 /* Frameworks */,
+				493989782AD4BE2600B4A8A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZaraRickAndMorty;
+			productName = ZaraRickAndMorty;
+			productReference = 4939897A2AD4BE2600B4A8A3 /* ZaraRickAndMorty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		493989922AD4BE2800B4A8A3 /* ZaraRickAndMortyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493989AA2AD4BE2800B4A8A3 /* Build configuration list for PBXNativeTarget "ZaraRickAndMortyTests" */;
+			buildPhases = (
+				4939898F2AD4BE2800B4A8A3 /* Sources */,
+				493989902AD4BE2800B4A8A3 /* Frameworks */,
+				493989912AD4BE2800B4A8A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				493989952AD4BE2800B4A8A3 /* PBXTargetDependency */,
+			);
+			name = ZaraRickAndMortyTests;
+			productName = ZaraRickAndMortyTests;
+			productReference = 493989932AD4BE2800B4A8A3 /* ZaraRickAndMortyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4939899D2AD4BE2800B4A8A3 /* ZaraRickAndMortyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493989AD2AD4BE2800B4A8A3 /* Build configuration list for PBXNativeTarget "ZaraRickAndMortyUITests" */;
+			buildPhases = (
+				4939899A2AD4BE2800B4A8A3 /* Sources */,
+				4939899B2AD4BE2800B4A8A3 /* Frameworks */,
+				4939899C2AD4BE2800B4A8A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				493989A02AD4BE2800B4A8A3 /* PBXTargetDependency */,
+			);
+			name = ZaraRickAndMortyUITests;
+			productName = ZaraRickAndMortyUITests;
+			productReference = 4939899E2AD4BE2800B4A8A3 /* ZaraRickAndMortyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		493989722AD4BE2600B4A8A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					493989792AD4BE2600B4A8A3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					493989922AD4BE2800B4A8A3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 493989792AD4BE2600B4A8A3;
+					};
+					4939899D2AD4BE2800B4A8A3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 493989792AD4BE2600B4A8A3;
+					};
+				};
+			};
+			buildConfigurationList = 493989752AD4BE2600B4A8A3 /* Build configuration list for PBXProject "ZaraRickAndMorty" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 493989712AD4BE2600B4A8A3;
+			productRefGroup = 4939897B2AD4BE2600B4A8A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				493989792AD4BE2600B4A8A3 /* ZaraRickAndMorty */,
+				493989922AD4BE2800B4A8A3 /* ZaraRickAndMortyTests */,
+				4939899D2AD4BE2800B4A8A3 /* ZaraRickAndMortyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		493989782AD4BE2600B4A8A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49451AB62AD84A92000DBBB3 /* Colors.xcassets in Resources */,
+				4939898D2AD4BE2800B4A8A3 /* LaunchScreen.storyboard in Resources */,
+				4939898A2AD4BE2800B4A8A3 /* Assets.xcassets in Resources */,
+				493989852AD4BE2600B4A8A3 /* Main.storyboard in Resources */,
+				493A1FE42AD5830200E2EB7F /* CardTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493989912AD4BE2800B4A8A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4939899C2AD4BE2800B4A8A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		493989762AD4BE2600B4A8A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4937B6042AD56FC900331383 /* CardTableViewCell.swift in Sources */,
+				493989822AD4BE2600B4A8A3 /* ViewController.swift in Sources */,
+				4939897E2AD4BE2600B4A8A3 /* AppDelegate.swift in Sources */,
+				498A0ADC2ADCBBEC00D502E9 /* APICharacterModels.swift in Sources */,
+				493989882AD4BE2600B4A8A3 /* ZaraRickAndMorty.xcdatamodeld in Sources */,
+				498A0AD72ADCBAC100D502E9 /* APIRequests.swift in Sources */,
+				498A0AE62ADCC43800D502E9 /* PersistentContainer.swift in Sources */,
+				498A0AE12ADCBC0C00D502E9 /* Utilities.swift in Sources */,
+				493989802AD4BE2600B4A8A3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4939898F2AD4BE2800B4A8A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4946EF142ADCD2B500B90F42 /* ViewControllerTests.swift in Sources */,
+				493989982AD4BE2800B4A8A3 /* DefaultTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4939899A2AD4BE2800B4A8A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493989A32AD4BE2800B4A8A3 /* ZaraRickAndMortyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		493989952AD4BE2800B4A8A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 493989792AD4BE2600B4A8A3 /* ZaraRickAndMorty */;
+			targetProxy = 493989942AD4BE2800B4A8A3 /* PBXContainerItemProxy */;
+		};
+		493989A02AD4BE2800B4A8A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 493989792AD4BE2600B4A8A3 /* ZaraRickAndMorty */;
+			targetProxy = 4939899F2AD4BE2800B4A8A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		493989832AD4BE2600B4A8A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				493989842AD4BE2600B4A8A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4939898B2AD4BE2800B4A8A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4939898C2AD4BE2800B4A8A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		493989A52AD4BE2800B4A8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		493989A62AD4BE2800B4A8A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		493989A82AD4BE2800B4A8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZaraRickAndMorty/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lazarterodriguezm.ZaraRickAndMorty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		493989A92AD4BE2800B4A8A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZaraRickAndMorty/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lazarterodriguezm.ZaraRickAndMorty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		493989AB2AD4BE2800B4A8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZaraRickAndMortyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lazarterodriguezm.ZaraRickAndMortyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZaraRickAndMorty.app/ZaraRickAndMorty";
+			};
+			name = Debug;
+		};
+		493989AC2AD4BE2800B4A8A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZaraRickAndMortyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lazarterodriguezm.ZaraRickAndMortyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZaraRickAndMorty.app/ZaraRickAndMorty";
+			};
+			name = Release;
+		};
+		493989AE2AD4BE2800B4A8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZaraRickAndMortyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lazarterodriguezm.ZaraRickAndMortyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZaraRickAndMorty;
+			};
+			name = Debug;
+		};
+		493989AF2AD4BE2800B4A8A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZaraRickAndMortyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lazarterodriguezm.ZaraRickAndMortyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZaraRickAndMorty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		493989752AD4BE2600B4A8A3 /* Build configuration list for PBXProject "ZaraRickAndMorty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493989A52AD4BE2800B4A8A3 /* Debug */,
+				493989A62AD4BE2800B4A8A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		493989A72AD4BE2800B4A8A3 /* Build configuration list for PBXNativeTarget "ZaraRickAndMorty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493989A82AD4BE2800B4A8A3 /* Debug */,
+				493989A92AD4BE2800B4A8A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		493989AA2AD4BE2800B4A8A3 /* Build configuration list for PBXNativeTarget "ZaraRickAndMortyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493989AB2AD4BE2800B4A8A3 /* Debug */,
+				493989AC2AD4BE2800B4A8A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		493989AD2AD4BE2800B4A8A3 /* Build configuration list for PBXNativeTarget "ZaraRickAndMortyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493989AE2AD4BE2800B4A8A3 /* Debug */,
+				493989AF2AD4BE2800B4A8A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		493989862AD4BE2600B4A8A3 /* ZaraRickAndMorty.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				493989872AD4BE2600B4A8A3 /* ZaraRickAndMorty.xcdatamodel */,
+			);
+			currentVersion = 493989872AD4BE2600B4A8A3 /* ZaraRickAndMorty.xcdatamodel */;
+			path = ZaraRickAndMorty.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 493989722AD4BE2600B4A8A3 /* Project object */;
+}
